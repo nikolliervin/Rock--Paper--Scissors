@@ -45,7 +45,7 @@ function playRound(playerSelection) {
         }
     }
 
-    document.getElementById('result').innerHTML = result
+    document.getElementById('details').innerHTML = result
     return
 }
 

@@ -58,6 +58,9 @@ header h1{
     transform: scale(1.2);
    
 }
+input{
+    font-family: inherit;
+}
 footer{
     margin-top: 3rem;
     text-align: center;
@@ -66,6 +69,9 @@ footer{
     width: 300px;
     border: 1px solid rgba(255, 255, 255, 0.11);
     padding: 1rem;
+}
+.logsDetails{
+    font-size: 2rem;
 }
 a{  
     margin-top: 4rem;
