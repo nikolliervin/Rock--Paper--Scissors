@@ -1,0 +1,28 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background:url(/images/endless-constellation.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size:4rem;
+}
+.game{
+    display: flex;
+}
+.selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
