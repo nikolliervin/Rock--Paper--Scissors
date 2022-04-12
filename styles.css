@@ -5,16 +5,19 @@ body{
     font-family: 'Orbitron', sans-serif;
     color: white;
     background:url(/images/endless-constellation.svg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 header{
     text-align: center;
 }
 header h1{
     font-size:4rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .game{
     display: flex;
@@ -29,6 +32,7 @@ header h1{
 }
 .weapon{
     width: 50px;
+    
 }
 .selectBtn{
     margin: 1.5rem;
@@ -36,4 +40,23 @@ header h1{
     color: white;
     background-color: rgba(240, 248, 255, 0);
     padding: .8rem;
+    transition: all 1s;
+    cursor: pointer;
+}
+.selectBtn:hover{
+    transform: scale(1.2);
+   
+}
+@media screen and (min-width:1024px) {
+    .weapon{
+        width: 200px;
+    }
+    .selection{
+        margin: 6rem;
+    }
+    .selectBtn{
+        padding: 2rem 4rem;
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
 }
