@@ -33,8 +33,18 @@ header h1{
 }
 .weapon{
     width: 50px;
+    animation-name: weaponsAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     
 }
+@keyframes weaponsAnimation {
+    0%   {transform: scale(1);}
+    25%  {transform: scale(1.05);}
+    50%  {transform: scale(1);}
+    75%  {transform:scale(1.05);}
+    100% {transform: scale(1.05);}
+  }
 .selectBtn{
     margin: 1.5rem;
     border: 1px solid rgba(255, 255, 255, 0.185);
@@ -49,7 +59,7 @@ header h1{
    
 }
 footer{
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-align: center;
 }
 .logs{
@@ -61,6 +71,18 @@ a{
     margin-top: 4rem;
     color: white;
     text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.results{
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    padding: 1rem;
+}
+.result{
+    margin-top: 2rem;
 }
 @media screen and (min-width:1024px) {
     .weapon{
